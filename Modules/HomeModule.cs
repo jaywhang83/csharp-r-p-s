@@ -7,8 +7,8 @@ namespace AnagramNameSpace
   {
     public HomeModule()
     {
-//       Get["/"] = _ =>
-//
+      Get["/"] = _ => View["index.cshtml"];
+
     }
   }
 }
